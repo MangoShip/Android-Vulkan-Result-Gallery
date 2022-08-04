@@ -1,0 +1,4357 @@
+[
+  {
+    "0": {
+      "Message Passing Default": {
+        "seq": 8911,
+        "interleaved": 89,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 9970,
+        "interleaved": 30,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 8000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 10549,
+        "interleaved": 4451,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 8986,
+        "interleaved": 14,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 11980,
+        "interleaved": 20,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 85,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 410,
+        "memStressPattern": 1,
+        "memStressPct": 0,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 114,
+        "preStressPattern": 2,
+        "preStressPct": 40,
+        "scratchMemorySize": 131072,
+        "shufflePct": 10,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 1024,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "1": {
+      "Message Passing Default": {
+        "seq": 10345,
+        "interleaved": 55,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 12740,
+        "interleaved": 260,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 12848,
+        "interleaved": 152,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 12642,
+        "interleaved": 4258,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 16834,
+        "interleaved": 66,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 12912,
+        "interleaved": 88,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 5,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 211,
+        "memStressPattern": 2,
+        "memStressPct": 30,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 127,
+        "preStressPattern": 2,
+        "preStressPct": 55,
+        "scratchMemorySize": 114688,
+        "shufflePct": 10,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 512,
+        "stressTargetLines": 7,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "2": {
+      "Message Passing Default": {
+        "seq": 15379,
+        "interleaved": 21,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 12493,
+        "interleaved": 107,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 11183,
+        "interleaved": 17,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 14635,
+        "interleaved": 6365,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 11192,
+        "interleaved": 8,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 12563,
+        "interleaved": 37,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 10,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 237,
+        "memStressPattern": 2,
+        "memStressPct": 95,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 92,
+        "preStressPattern": 1,
+        "preStressPct": 35,
+        "scratchMemorySize": 98304,
+        "shufflePct": 20,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 1024,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "3": {
+      "Message Passing Default": {
+        "seq": 11200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 8962,
+        "interleaved": 2238,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 7995,
+        "interleaved": 5,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 6347,
+        "interleaved": 1653,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 8800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 7170,
+        "interleaved": 30,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 5,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 227,
+        "memStressPattern": 0,
+        "memStressPct": 25,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 64,
+        "preStressPattern": 0,
+        "preStressPct": 50,
+        "scratchMemorySize": 180224,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 512,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "4": {
+      "Message Passing Default": {
+        "seq": 12000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 8800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 9600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 5589,
+        "interleaved": 1611,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 10400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 7096,
+        "interleaved": 104,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 90,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 840,
+        "memStressPattern": 0,
+        "memStressPct": 65,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 23,
+        "preStressPattern": 0,
+        "preStressPct": 75,
+        "scratchMemorySize": 32768,
+        "shufflePct": 95,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 64,
+        "stressTargetLines": 16,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "5": {
+      "Message Passing Default": {
+        "seq": 9598,
+        "interleaved": 2,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 12080,
+        "interleaved": 4720,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 16786,
+        "interleaved": 14,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 14400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 14318,
+        "interleaved": 82,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 50,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 152,
+        "memStressPattern": 3,
+        "memStressPct": 70,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 126,
+        "preStressPattern": 0,
+        "preStressPct": 75,
+        "scratchMemorySize": 131072,
+        "shufflePct": 5,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 512,
+        "stressTargetLines": 8,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "6": {
+      "Message Passing Default": {
+        "seq": 23570,
+        "interleaved": 430,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 14194,
+        "interleaved": 8206,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 14400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 12799,
+        "interleaved": 1,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 12800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 17600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 95,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 814,
+        "memStressPattern": 2,
+        "memStressPct": 10,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 21,
+        "preStressPattern": 0,
+        "preStressPct": 25,
+        "scratchMemorySize": 212992,
+        "shufflePct": 40,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 512,
+        "stressTargetLines": 13,
+        "testIterations": 100,
+        "testingWorkgroups": 16
+      }
+    },
+    "7": {
+      "Message Passing Default": {
+        "seq": 10788,
+        "interleaved": 12,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 10617,
+        "interleaved": 183,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 13095,
+        "interleaved": 105,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 10155,
+        "interleaved": 4245,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 15600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 13097,
+        "interleaved": 103,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 20,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 695,
+        "memStressPattern": 3,
+        "memStressPct": 70,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 122,
+        "preStressPattern": 1,
+        "preStressPct": 85,
+        "scratchMemorySize": 16384,
+        "shufflePct": 30,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 16,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "8": {
+      "Message Passing Default": {
+        "seq": 10392,
+        "interleaved": 8,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 11691,
+        "interleaved": 9,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 11700,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7909,
+        "interleaved": 3791,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 11700,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 15506,
+        "interleaved": 94,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 80,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 331,
+        "memStressPattern": 0,
+        "memStressPct": 25,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 5,
+        "preStressPattern": 2,
+        "preStressPct": 65,
+        "scratchMemorySize": 57344,
+        "shufflePct": 80,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 128,
+        "stressTargetLines": 14,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "9": {
+      "Message Passing Default": {
+        "seq": 20039,
+        "interleaved": 961,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 13367,
+        "interleaved": 133,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 17629,
+        "interleaved": 371,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 13643,
+        "interleaved": 5857,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 16472,
+        "interleaved": 28,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 17965,
+        "interleaved": 35,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 20,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 22,
+        "memStressPattern": 1,
+        "memStressPct": 85,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 61,
+        "preStressPattern": 2,
+        "preStressPct": 55,
+        "scratchMemorySize": 49152,
+        "shufflePct": 55,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 128,
+        "stressTargetLines": 12,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "10": {
+      "Message Passing Default": {
+        "seq": 10800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 13458,
+        "interleaved": 42,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 9889,
+        "interleaved": 11,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9820,
+        "interleaved": 3680,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 12600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 10791,
+        "interleaved": 9,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 55,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 399,
+        "memStressPattern": 1,
+        "memStressPct": 75,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 12,
+        "preStressPattern": 2,
+        "preStressPct": 20,
+        "scratchMemorySize": 8192,
+        "shufflePct": 40,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 256,
+        "stressTargetLines": 1,
+        "testIterations": 100,
+        "testingWorkgroups": 9
+      }
+    },
+    "11": {
+      "Message Passing Default": {
+        "seq": 7200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 10785,
+        "interleaved": 15,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 9884,
+        "interleaved": 16,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7199,
+        "interleaved": 1,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 11700,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 10660,
+        "interleaved": 1940,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 35,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 838,
+        "memStressPattern": 0,
+        "memStressPct": 40,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 36,
+        "preStressPattern": 1,
+        "preStressPct": 50,
+        "scratchMemorySize": 1408,
+        "shufflePct": 60,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 4,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 9
+      }
+    },
+    "12": {
+      "Message Passing Default": {
+        "seq": 7162,
+        "interleaved": 38,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 8800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 9579,
+        "interleaved": 21,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9253,
+        "interleaved": 2747,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 7200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 10136,
+        "interleaved": 264,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 90,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 330,
+        "memStressPattern": 2,
+        "memStressPct": 90,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 42,
+        "preStressPattern": 1,
+        "preStressPct": 95,
+        "scratchMemorySize": 24576,
+        "shufflePct": 45,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 256,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "13": {
+      "Message Passing Default": {
+        "seq": 10800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 17940,
+        "interleaved": 60,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 16800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9093,
+        "interleaved": 4107,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 14400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 17902,
+        "interleaved": 98,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 80,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 287,
+        "memStressPattern": 0,
+        "memStressPct": 90,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 12,
+        "preStressPattern": 0,
+        "preStressPct": 55,
+        "scratchMemorySize": 5120,
+        "shufflePct": 55,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 5,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "14": {
+      "Message Passing Default": {
+        "seq": 13190,
+        "interleaved": 10,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 10731,
+        "interleaved": 69,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 15554,
+        "interleaved": 46,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 10053,
+        "interleaved": 4347,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 13200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 10674,
+        "interleaved": 126,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 80,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 584,
+        "memStressPattern": 0,
+        "memStressPct": 75,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 46,
+        "preStressPattern": 2,
+        "preStressPct": 55,
+        "scratchMemorySize": 61440,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 128,
+        "stressTargetLines": 15,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "15": {
+      "Message Passing Default": {
+        "seq": 7197,
+        "interleaved": 3,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 9052,
+        "interleaved": 2148,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 8758,
+        "interleaved": 42,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7551,
+        "interleaved": 2049,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 11200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 10440,
+        "interleaved": 760,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 20,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 616,
+        "memStressPattern": 3,
+        "memStressPct": 0,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 36,
+        "preStressPattern": 1,
+        "preStressPct": 70,
+        "scratchMemorySize": 30720,
+        "shufflePct": 80,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 64,
+        "stressTargetLines": 15,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "16": {
+      "Message Passing Default": {
+        "seq": 15000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 5607,
+        "interleaved": 2393,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 9982,
+        "interleaved": 18,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 14000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 14984,
+        "interleaved": 16,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 14934,
+        "interleaved": 66,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 40,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 754,
+        "memStressPattern": 2,
+        "memStressPct": 50,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 93,
+        "preStressPattern": 1,
+        "preStressPct": 20,
+        "scratchMemorySize": 180224,
+        "shufflePct": 60,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 512,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "17": {
+      "Message Passing Default": {
+        "seq": 13183,
+        "interleaved": 17,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 16409,
+        "interleaved": 91,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 9881,
+        "interleaved": 19,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 15393,
+        "interleaved": 7,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 15380,
+        "interleaved": 20,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 11844,
+        "interleaved": 3556,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 65,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 626,
+        "memStressPattern": 0,
+        "memStressPct": 40,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 84,
+        "preStressPattern": 2,
+        "preStressPct": 30,
+        "scratchMemorySize": 1536,
+        "shufflePct": 15,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 6,
+        "testIterations": 100,
+        "testingWorkgroups": 11
+      }
+    },
+    "18": {
+      "Message Passing Default": {
+        "seq": 12619,
+        "interleaved": 181,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 15626,
+        "interleaved": 374,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 23167,
+        "interleaved": 833,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 10649,
+        "interleaved": 5351,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 20773,
+        "interleaved": 27,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 15956,
+        "interleaved": 44,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 55,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 871,
+        "memStressPattern": 1,
+        "memStressPct": 5,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 41,
+        "preStressPattern": 2,
+        "preStressPct": 90,
+        "scratchMemorySize": 6656,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 16,
+        "stressTargetLines": 13,
+        "testIterations": 100,
+        "testingWorkgroups": 16
+      }
+    },
+    "19": {
+      "Message Passing Default": {
+        "seq": 13496,
+        "interleaved": 4,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 19309,
+        "interleaved": 191,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 11950,
+        "interleaved": 50,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 20996,
+        "interleaved": 4,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 20985,
+        "interleaved": 15,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 15903,
+        "interleaved": 5097,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 50,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 690,
+        "memStressPattern": 2,
+        "memStressPct": 95,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 80,
+        "preStressPattern": 3,
+        "preStressPct": 30,
+        "scratchMemorySize": 11264,
+        "shufflePct": 30,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 32,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "20": {
+      "Message Passing Default": {
+        "seq": 8000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 8800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 6400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 11180,
+        "interleaved": 20,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 10400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 9509,
+        "interleaved": 91,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 45,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 922,
+        "memStressPattern": 2,
+        "memStressPct": 10,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 20,
+        "preStressPattern": 3,
+        "preStressPct": 85,
+        "scratchMemorySize": 20480,
+        "shufflePct": 95,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 128,
+        "stressTargetLines": 5,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "21": {
+      "Message Passing Default": {
+        "seq": 14990,
+        "interleaved": 10,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 19500,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 20541,
+        "interleaved": 459,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 15434,
+        "interleaved": 7066,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 13500,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 22445,
+        "interleaved": 55,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 50,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 866,
+        "memStressPattern": 0,
+        "memStressPct": 60,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 68,
+        "preStressPattern": 0,
+        "preStressPct": 70,
+        "scratchMemorySize": 2048,
+        "shufflePct": 50,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 8,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "22": {
+      "Message Passing Default": {
+        "seq": 20661,
+        "interleaved": 339,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 19095,
+        "interleaved": 405,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 16418,
+        "interleaved": 82,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 11466,
+        "interleaved": 5034,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 20965,
+        "interleaved": 35,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 17978,
+        "interleaved": 22,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 15,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 626,
+        "memStressPattern": 1,
+        "memStressPct": 5,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 40,
+        "preStressPattern": 2,
+        "preStressPct": 40,
+        "scratchMemorySize": 3072,
+        "shufflePct": 95,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 32,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "23": {
+      "Message Passing Default": {
+        "seq": 12100,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 9837,
+        "interleaved": 63,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 12086,
+        "interleaved": 14,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9484,
+        "interleaved": 3716,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 13199,
+        "interleaved": 1,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 12444,
+        "interleaved": 2956,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 45,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 283,
+        "memStressPattern": 1,
+        "memStressPct": 75,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 33,
+        "preStressPattern": 1,
+        "preStressPct": 80,
+        "scratchMemorySize": 768,
+        "shufflePct": 50,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 11
+      }
+    },
+    "24": {
+      "Message Passing Default": {
+        "seq": 17560,
+        "interleaved": 40,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 14376,
+        "interleaved": 8024,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 12651,
+        "interleaved": 149,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 13673,
+        "interleaved": 7127,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 17596,
+        "interleaved": 4,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 20768,
+        "interleaved": 32,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 0,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 483,
+        "memStressPattern": 0,
+        "memStressPct": 65,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 23,
+        "preStressPattern": 3,
+        "preStressPct": 50,
+        "scratchMemorySize": 12288,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 12,
+        "testIterations": 100,
+        "testingWorkgroups": 16
+      }
+    },
+    "25": {
+      "Message Passing Default": {
+        "seq": 11686,
+        "interleaved": 14,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 18944,
+        "interleaved": 556,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 12948,
+        "interleaved": 52,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7972,
+        "interleaved": 3728,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 15599,
+        "interleaved": 1,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 12772,
+        "interleaved": 228,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 70,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 884,
+        "memStressPattern": 3,
+        "memStressPct": 55,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 12,
+        "preStressPattern": 3,
+        "preStressPct": 85,
+        "scratchMemorySize": 20480,
+        "shufflePct": 95,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 64,
+        "stressTargetLines": 10,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "26": {
+      "Message Passing Default": {
+        "seq": 9593,
+        "interleaved": 7,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 6459,
+        "interleaved": 3141,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 14359,
+        "interleaved": 41,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 13200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 14322,
+        "interleaved": 78,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 65,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 13,
+        "memStressPattern": 1,
+        "memStressPct": 50,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 125,
+        "preStressPattern": 1,
+        "preStressPct": 65,
+        "scratchMemorySize": 14336,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 14,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "27": {
+      "Message Passing Default": {
+        "seq": 15155,
+        "interleaved": 245,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 9706,
+        "interleaved": 194,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 11912,
+        "interleaved": 188,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 8762,
+        "interleaved": 38,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 10950,
+        "interleaved": 50,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 12022,
+        "interleaved": 78,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 20,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 156,
+        "memStressPattern": 1,
+        "memStressPct": 95,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 107,
+        "preStressPattern": 2,
+        "preStressPct": 70,
+        "scratchMemorySize": 57344,
+        "shufflePct": 40,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 128,
+        "stressTargetLines": 14,
+        "testIterations": 100,
+        "testingWorkgroups": 11
+      }
+    },
+    "28": {
+      "Message Passing Default": {
+        "seq": 19457,
+        "interleaved": 43,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 12918,
+        "interleaved": 82,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 15563,
+        "interleaved": 37,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 8428,
+        "interleaved": 4572,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 14300,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 13937,
+        "interleaved": 4263,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 85,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 344,
+        "memStressPattern": 3,
+        "memStressPct": 85,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 52,
+        "preStressPattern": 1,
+        "preStressPct": 75,
+        "scratchMemorySize": 131072,
+        "shufflePct": 10,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 1024,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "29": {
+      "Message Passing Default": {
+        "seq": 11200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 16671,
+        "interleaved": 129,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 18089,
+        "interleaved": 111,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 8110,
+        "interleaved": 4490,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 19590,
+        "interleaved": 10,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 16772,
+        "interleaved": 28,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 75,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 508,
+        "memStressPattern": 0,
+        "memStressPct": 40,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 16,
+        "preStressPattern": 2,
+        "preStressPct": 35,
+        "scratchMemorySize": 1792,
+        "shufflePct": 45,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 7,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "30": {
+      "Message Passing Default": {
+        "seq": 10795,
+        "interleaved": 5,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 10698,
+        "interleaved": 102,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 11974,
+        "interleaved": 26,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9596,
+        "interleaved": 4,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 9594,
+        "interleaved": 6,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 6821,
+        "interleaved": 2779,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 20,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 914,
+        "memStressPattern": 0,
+        "memStressPct": 0,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 92,
+        "preStressPattern": 2,
+        "preStressPct": 25,
+        "scratchMemorySize": 32768,
+        "shufflePct": 10,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 256,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "31": {
+      "Message Passing Default": {
+        "seq": 10000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 12830,
+        "interleaved": 170,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 12969,
+        "interleaved": 31,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 14000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 11000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 9917,
+        "interleaved": 83,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 20,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 464,
+        "memStressPattern": 3,
+        "memStressPct": 60,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 12,
+        "preStressPattern": 1,
+        "preStressPct": 65,
+        "scratchMemorySize": 11264,
+        "shufflePct": 40,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "32": {
+      "Message Passing Default": {
+        "seq": 8995,
+        "interleaved": 5,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 8966,
+        "interleaved": 34,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 12498,
+        "interleaved": 102,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9071,
+        "interleaved": 2629,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 11657,
+        "interleaved": 43,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 5879,
+        "interleaved": 1321,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 25,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 523,
+        "memStressPattern": 2,
+        "memStressPct": 45,
+        "memStride": 3,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 114,
+        "preStressPattern": 1,
+        "preStressPct": 75,
+        "scratchMemorySize": 65536,
+        "shufflePct": 30,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 128,
+        "stressTargetLines": 16,
+        "testIterations": 100,
+        "testingWorkgroups": 9
+      }
+    },
+    "33": {
+      "Message Passing Default": {
+        "seq": 9000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 13000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 8000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7933,
+        "interleaved": 3067,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 10995,
+        "interleaved": 5,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 10900,
+        "interleaved": 100,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 55,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 451,
+        "memStressPattern": 0,
+        "memStressPct": 30,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 25,
+        "preStressPattern": 0,
+        "preStressPct": 55,
+        "scratchMemorySize": 49152,
+        "shufflePct": 55,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 512,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "34": {
+      "Message Passing Default": {
+        "seq": 11000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 9970,
+        "interleaved": 30,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 14951,
+        "interleaved": 49,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 6398,
+        "interleaved": 2602,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 13994,
+        "interleaved": 6,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 9804,
+        "interleaved": 196,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 70,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 693,
+        "memStressPattern": 0,
+        "memStressPct": 75,
+        "memStride": 3,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 13,
+        "preStressPattern": 2,
+        "preStressPct": 65,
+        "scratchMemorySize": 114688,
+        "shufflePct": 55,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 512,
+        "stressTargetLines": 7,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "35": {
+      "Message Passing Default": {
+        "seq": 12088,
+        "interleaved": 12,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 9707,
+        "interleaved": 193,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 10975,
+        "interleaved": 25,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 8799,
+        "interleaved": 1,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 10998,
+        "interleaved": 2,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 11962,
+        "interleaved": 3438,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 55,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 657,
+        "memStressPattern": 0,
+        "memStressPct": 0,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 39,
+        "preStressPattern": 3,
+        "preStressPct": 35,
+        "scratchMemorySize": 32768,
+        "shufflePct": 60,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 64,
+        "stressTargetLines": 16,
+        "testIterations": 100,
+        "testingWorkgroups": 11
+      }
+    },
+    "36": {
+      "Message Passing Default": {
+        "seq": 23986,
+        "interleaved": 14,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 6861,
+        "interleaved": 5939,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 19185,
+        "interleaved": 15,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 8892,
+        "interleaved": 7108,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 14400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 20794,
+        "interleaved": 6,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 25,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 57,
+        "memStressPattern": 2,
+        "memStressPct": 20,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 68,
+        "preStressPattern": 2,
+        "preStressPct": 5,
+        "scratchMemorySize": 131072,
+        "shufflePct": 5,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 256,
+        "stressTargetLines": 16,
+        "testIterations": 100,
+        "testingWorkgroups": 16
+      }
+    },
+    "37": {
+      "Message Passing Default": {
+        "seq": 12000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 12000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 8000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 5646,
+        "interleaved": 1554,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 9600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 10356,
+        "interleaved": 44,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 5,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 158,
+        "memStressPattern": 2,
+        "memStressPct": 95,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 12,
+        "preStressPattern": 2,
+        "preStressPct": 45,
+        "scratchMemorySize": 81920,
+        "shufflePct": 45,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 512,
+        "stressTargetLines": 5,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "38": {
+      "Message Passing Default": {
+        "seq": 20969,
+        "interleaved": 31,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 17821,
+        "interleaved": 379,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 20516,
+        "interleaved": 484,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 11195,
+        "interleaved": 5,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 15397,
+        "interleaved": 3,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 16749,
+        "interleaved": 51,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 5,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 290,
+        "memStressPattern": 1,
+        "memStressPct": 20,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 32,
+        "preStressPattern": 2,
+        "preStressPct": 30,
+        "scratchMemorySize": 4096,
+        "shufflePct": 80,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "39": {
+      "Message Passing Default": {
+        "seq": 9000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 9000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 9900,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7969,
+        "interleaved": 2831,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 7200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 8992,
+        "interleaved": 8,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 45,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 411,
+        "memStressPattern": 3,
+        "memStressPct": 40,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 81,
+        "preStressPattern": 1,
+        "preStressPct": 5,
+        "scratchMemorySize": 768,
+        "shufflePct": 0,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 8,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 9
+      }
+    },
+    "40": {
+      "Message Passing Default": {
+        "seq": 18136,
+        "interleaved": 64,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 13634,
+        "interleaved": 5966,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 12487,
+        "interleaved": 113,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 11138,
+        "interleaved": 62,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 13983,
+        "interleaved": 17,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 8537,
+        "interleaved": 2663,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 10,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 1002,
+        "memStressPattern": 3,
+        "memStressPct": 40,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 67,
+        "preStressPattern": 2,
+        "preStressPct": 100,
+        "scratchMemorySize": 1664,
+        "shufflePct": 0,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 4,
+        "stressTargetLines": 13,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "41": {
+      "Message Passing Default": {
+        "seq": 14000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 16746,
+        "interleaved": 54,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 16800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 12307,
+        "interleaved": 5893,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 15400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 12547,
+        "interleaved": 53,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 40,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 794,
+        "memStressPattern": 0,
+        "memStressPct": 25,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 29,
+        "preStressPattern": 0,
+        "preStressPct": 20,
+        "scratchMemorySize": 3840,
+        "shufflePct": 40,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 15,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "42": {
+      "Message Passing Default": {
+        "seq": 9600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 10400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 8000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 6236,
+        "interleaved": 1764,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 8000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 10388,
+        "interleaved": 12,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 40,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 33,
+        "memStressPattern": 0,
+        "memStressPct": 60,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 31,
+        "preStressPattern": 1,
+        "preStressPct": 5,
+        "scratchMemorySize": 360448,
+        "shufflePct": 85,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 1024,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "43": {
+      "Message Passing Default": {
+        "seq": 16877,
+        "interleaved": 23,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 6812,
+        "interleaved": 3588,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 16831,
+        "interleaved": 69,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 8764,
+        "interleaved": 4236,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 12999,
+        "interleaved": 1,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 19335,
+        "interleaved": 165,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 65,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 558,
+        "memStressPattern": 2,
+        "memStressPct": 50,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 71,
+        "preStressPattern": 2,
+        "preStressPct": 40,
+        "scratchMemorySize": 1024,
+        "shufflePct": 50,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 8,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "44": {
+      "Message Passing Default": {
+        "seq": 11700,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 15468,
+        "interleaved": 132,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 16867,
+        "interleaved": 33,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 18200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 14300,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 7478,
+        "interleaved": 2922,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 65,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 137,
+        "memStressPattern": 1,
+        "memStressPct": 50,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 90,
+        "preStressPattern": 1,
+        "preStressPct": 55,
+        "scratchMemorySize": 26624,
+        "shufflePct": 75,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 64,
+        "stressTargetLines": 13,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "45": {
+      "Message Passing Default": {
+        "seq": 17963,
+        "interleaved": 37,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 13200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 10800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 10932,
+        "interleaved": 4668,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 10800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 6827,
+        "interleaved": 2773,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 45,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 13,
+        "memStressPattern": 1,
+        "memStressPct": 90,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 1,
+        "preStressPattern": 0,
+        "preStressPct": 95,
+        "scratchMemorySize": 3840,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 15,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "46": {
+      "Message Passing Default": {
+        "seq": 10800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 14400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 10800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7238,
+        "interleaved": 3562,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 15600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 11953,
+        "interleaved": 47,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 90,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 562,
+        "memStressPattern": 0,
+        "memStressPct": 85,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 70,
+        "preStressPattern": 2,
+        "preStressPct": 5,
+        "scratchMemorySize": 45056,
+        "shufflePct": 60,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 128,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "47": {
+      "Message Passing Default": {
+        "seq": 20904,
+        "interleaved": 96,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 6965,
+        "interleaved": 4235,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 12574,
+        "interleaved": 26,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 11196,
+        "interleaved": 4,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 19573,
+        "interleaved": 27,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 20750,
+        "interleaved": 250,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 80,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 937,
+        "memStressPattern": 1,
+        "memStressPct": 30,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 37,
+        "preStressPattern": 2,
+        "preStressPct": 85,
+        "scratchMemorySize": 5120,
+        "shufflePct": 30,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 16,
+        "stressTargetLines": 10,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "48": {
+      "Message Passing Default": {
+        "seq": 18200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 15400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 19470,
+        "interleaved": 130,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9935,
+        "interleaved": 5465,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 11200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 16789,
+        "interleaved": 11,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 80,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 147,
+        "memStressPattern": 0,
+        "memStressPct": 85,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 0,
+        "preStressPattern": 1,
+        "preStressPct": 95,
+        "scratchMemorySize": 196608,
+        "shufflePct": 25,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 1024,
+        "stressTargetLines": 6,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "49": {
+      "Message Passing Default": {
+        "seq": 14000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 12600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 18200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 10187,
+        "interleaved": 5213,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 18200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 7806,
+        "interleaved": 3394,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 25,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 71,
+        "memStressPattern": 3,
+        "memStressPct": 20,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 37,
+        "preStressPattern": 0,
+        "preStressPct": 10,
+        "scratchMemorySize": 16384,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 256,
+        "stressTargetLines": 2,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "50": {
+      "Message Passing Default": {
+        "seq": 13000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 12866,
+        "interleaved": 5334,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 19441,
+        "interleaved": 59,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 13709,
+        "interleaved": 5791,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 13000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 11646,
+        "interleaved": 54,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 85,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 686,
+        "memStressPattern": 3,
+        "memStressPct": 90,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 50,
+        "preStressPattern": 2,
+        "preStressPct": 15,
+        "scratchMemorySize": 24576,
+        "shufflePct": 35,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 64,
+        "stressTargetLines": 12,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "51": {
+      "Message Passing Default": {
+        "seq": 9900,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 16485,
+        "interleaved": 15,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 14280,
+        "interleaved": 20,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 8800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 13200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 10735,
+        "interleaved": 265,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 90,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 299,
+        "memStressPattern": 3,
+        "memStressPct": 60,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 22,
+        "preStressPattern": 1,
+        "preStressPct": 70,
+        "scratchMemorySize": 4608,
+        "shufflePct": 75,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 16,
+        "stressTargetLines": 9,
+        "testIterations": 100,
+        "testingWorkgroups": 11
+      }
+    },
+    "52": {
+      "Message Passing Default": {
+        "seq": 22470,
+        "interleaved": 30,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 17976,
+        "interleaved": 24,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 20789,
+        "interleaved": 211,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 14876,
+        "interleaved": 7624,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 14996,
+        "interleaved": 4,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 15051,
+        "interleaved": 5949,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 90,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 295,
+        "memStressPattern": 3,
+        "memStressPct": 30,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 106,
+        "preStressPattern": 2,
+        "preStressPct": 30,
+        "scratchMemorySize": 128,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 4,
+        "stressTargetLines": 1,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "53": {
+      "Message Passing Default": {
+        "seq": 15946,
+        "interleaved": 54,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 20800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 17516,
+        "interleaved": 84,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 22330,
+        "interleaved": 70,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 16000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 19187,
+        "interleaved": 13,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 40,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 548,
+        "memStressPattern": 3,
+        "memStressPct": 65,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 97,
+        "preStressPattern": 0,
+        "preStressPct": 55,
+        "scratchMemorySize": 49152,
+        "shufflePct": 35,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 512,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 16
+      }
+    },
+    "54": {
+      "Message Passing Default": {
+        "seq": 7993,
+        "interleaved": 7,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 9915,
+        "interleaved": 85,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 8974,
+        "interleaved": 26,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 6478,
+        "interleaved": 2522,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 12000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 8947,
+        "interleaved": 53,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 10,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 358,
+        "memStressPattern": 0,
+        "memStressPct": 65,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 27,
+        "preStressPattern": 1,
+        "preStressPct": 75,
+        "scratchMemorySize": 9216,
+        "shufflePct": 85,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 9,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "55": {
+      "Message Passing Default": {
+        "seq": 6400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 11949,
+        "interleaved": 51,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 7200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9261,
+        "interleaved": 2739,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 6400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 9550,
+        "interleaved": 1650,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 60,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 310,
+        "memStressPattern": 2,
+        "memStressPct": 65,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 12,
+        "preStressPattern": 1,
+        "preStressPct": 20,
+        "scratchMemorySize": 4096,
+        "shufflePct": 80,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 8,
+        "stressTargetLines": 16,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "56": {
+      "Message Passing Default": {
+        "seq": 7200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 10400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 11970,
+        "interleaved": 30,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 11200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 12000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 7987,
+        "interleaved": 13,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 0,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 433,
+        "memStressPattern": 1,
+        "memStressPct": 95,
+        "memStride": 3,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 61,
+        "preStressPattern": 0,
+        "preStressPct": 20,
+        "scratchMemorySize": 36864,
+        "shufflePct": 70,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 128,
+        "stressTargetLines": 9,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "57": {
+      "Message Passing Default": {
+        "seq": 11110,
+        "interleaved": 90,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 9234,
+        "interleaved": 366,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 11172,
+        "interleaved": 28,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9587,
+        "interleaved": 2413,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 7187,
+        "interleaved": 13,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 10258,
+        "interleaved": 942,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 25,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 306,
+        "memStressPattern": 2,
+        "memStressPct": 60,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 43,
+        "preStressPattern": 3,
+        "preStressPct": 80,
+        "scratchMemorySize": 32768,
+        "shufflePct": 20,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 256,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "58": {
+      "Message Passing Default": {
+        "seq": 13951,
+        "interleaved": 49,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 13000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 15000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 14000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 9000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 14900,
+        "interleaved": 100,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 70,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 585,
+        "memStressPattern": 1,
+        "memStressPct": 50,
+        "memStride": 3,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 3,
+        "preStressPattern": 1,
+        "preStressPct": 25,
+        "scratchMemorySize": 10240,
+        "shufflePct": 40,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 10,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "59": {
+      "Message Passing Default": {
+        "seq": 9000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 9000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 12000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 14000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 11000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 8863,
+        "interleaved": 137,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 85,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 335,
+        "memStressPattern": 2,
+        "memStressPct": 95,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 111,
+        "preStressPattern": 0,
+        "preStressPct": 80,
+        "scratchMemorySize": 6144,
+        "shufflePct": 100,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 64,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "60": {
+      "Message Passing Default": {
+        "seq": 10799,
+        "interleaved": 1,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 8067,
+        "interleaved": 33,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 9861,
+        "interleaved": 39,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 6648,
+        "interleaved": 2352,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 12600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 8867,
+        "interleaved": 133,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 55,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 903,
+        "memStressPattern": 3,
+        "memStressPct": 65,
+        "memStride": 3,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 68,
+        "preStressPattern": 1,
+        "preStressPct": 55,
+        "scratchMemorySize": 98304,
+        "shufflePct": 85,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 1024,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 9
+      }
+    },
+    "61": {
+      "Message Passing Default": {
+        "seq": 9000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 8999,
+        "interleaved": 1,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 7200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 9000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 8090,
+        "interleaved": 10,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 75,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 464,
+        "memStressPattern": 2,
+        "memStressPct": 80,
+        "memStride": 3,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 78,
+        "preStressPattern": 1,
+        "preStressPct": 5,
+        "scratchMemorySize": 131072,
+        "shufflePct": 35,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 512,
+        "stressTargetLines": 8,
+        "testIterations": 100,
+        "testingWorkgroups": 9
+      }
+    },
+    "62": {
+      "Message Passing Default": {
+        "seq": 18171,
+        "interleaved": 29,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 12648,
+        "interleaved": 5552,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 11700,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 10700,
+        "interleaved": 4900,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 16900,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 13040,
+        "interleaved": 5160,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 0,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 249,
+        "memStressPattern": 0,
+        "memStressPct": 0,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 109,
+        "preStressPattern": 2,
+        "preStressPct": 0,
+        "scratchMemorySize": 256,
+        "shufflePct": 95,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 4,
+        "stressTargetLines": 2,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "63": {
+      "Message Passing Default": {
+        "seq": 9886,
+        "interleaved": 14,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 13200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 8800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7691,
+        "interleaved": 3309,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 13200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 16381,
+        "interleaved": 119,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 90,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 409,
+        "memStressPattern": 2,
+        "memStressPct": 85,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 86,
+        "preStressPattern": 0,
+        "preStressPct": 20,
+        "scratchMemorySize": 163840,
+        "shufflePct": 55,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 1024,
+        "stressTargetLines": 5,
+        "testIterations": 100,
+        "testingWorkgroups": 11
+      }
+    },
+    "64": {
+      "Message Passing Default": {
+        "seq": 12793,
+        "interleaved": 7,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 23890,
+        "interleaved": 110,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 19155,
+        "interleaved": 45,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 15373,
+        "interleaved": 8627,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 17600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 20797,
+        "interleaved": 3,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 55,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 388,
+        "memStressPattern": 3,
+        "memStressPct": 75,
+        "memStride": 3,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 37,
+        "preStressPattern": 3,
+        "preStressPct": 5,
+        "scratchMemorySize": 1536,
+        "shufflePct": 20,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 4,
+        "stressTargetLines": 12,
+        "testIterations": 100,
+        "testingWorkgroups": 16
+      }
+    },
+    "65": {
+      "Message Passing Default": {
+        "seq": 14400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 17888,
+        "interleaved": 112,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 14323,
+        "interleaved": 77,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7349,
+        "interleaved": 3451,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 12000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 17849,
+        "interleaved": 151,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 35,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 209,
+        "memStressPattern": 2,
+        "memStressPct": 25,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 23,
+        "preStressPattern": 1,
+        "preStressPct": 40,
+        "scratchMemorySize": 1024,
+        "shufflePct": 75,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 32,
+        "stressTargetLines": 1,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "66": {
+      "Message Passing Default": {
+        "seq": 10400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 8763,
+        "interleaved": 37,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 10354,
+        "interleaved": 46,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7428,
+        "interleaved": 2172,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 9600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 9566,
+        "interleaved": 34,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 25,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 119,
+        "memStressPattern": 2,
+        "memStressPct": 45,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 12,
+        "preStressPattern": 1,
+        "preStressPct": 60,
+        "scratchMemorySize": 16384,
+        "shufflePct": 45,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 128,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "67": {
+      "Message Passing Default": {
+        "seq": 12600,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 9423,
+        "interleaved": 3177,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 10769,
+        "interleaved": 31,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 9976,
+        "interleaved": 3524,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 9900,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 8954,
+        "interleaved": 46,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 20,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 123,
+        "memStressPattern": 2,
+        "memStressPct": 10,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 54,
+        "preStressPattern": 2,
+        "preStressPct": 80,
+        "scratchMemorySize": 32768,
+        "shufflePct": 80,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 512,
+        "stressTargetLines": 2,
+        "testIterations": 100,
+        "testingWorkgroups": 9
+      }
+    },
+    "68": {
+      "Message Passing Default": {
+        "seq": 22452,
+        "interleaved": 48,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 6756,
+        "interleaved": 5244,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 14910,
+        "interleaved": 90,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 12395,
+        "interleaved": 7105,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 20994,
+        "interleaved": 6,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 8373,
+        "interleaved": 3627,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 10,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 946,
+        "memStressPattern": 2,
+        "memStressPct": 80,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 20,
+        "preStressPattern": 1,
+        "preStressPct": 95,
+        "scratchMemorySize": 61440,
+        "shufflePct": 5,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 128,
+        "stressTargetLines": 15,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "69": {
+      "Message Passing Default": {
+        "seq": 16776,
+        "interleaved": 24,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 11901,
+        "interleaved": 4899,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 18000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 8209,
+        "interleaved": 3791,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 13200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 14319,
+        "interleaved": 81,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 85,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 791,
+        "memStressPattern": 1,
+        "memStressPct": 75,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 19,
+        "preStressPattern": 1,
+        "preStressPct": 5,
+        "scratchMemorySize": 65536,
+        "shufflePct": 50,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 512,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "70": {
+      "Message Passing Default": {
+        "seq": 16800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 11701,
+        "interleaved": 5099,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 10800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 12480,
+        "interleaved": 5520,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 13200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 13151,
+        "interleaved": 49,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 0,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 698,
+        "memStressPattern": 0,
+        "memStressPct": 75,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 1,
+        "preStressPattern": 0,
+        "preStressPct": 0,
+        "scratchMemorySize": 1536,
+        "shufflePct": 95,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 16,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "71": {
+      "Message Passing Default": {
+        "seq": 11698,
+        "interleaved": 2,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 19101,
+        "interleaved": 399,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 18171,
+        "interleaved": 29,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 7521,
+        "interleaved": 4179,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 16900,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 7056,
+        "interleaved": 3344,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 45,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 571,
+        "memStressPattern": 1,
+        "memStressPct": 70,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 29,
+        "preStressPattern": 3,
+        "preStressPct": 30,
+        "scratchMemorySize": 163840,
+        "shufflePct": 0,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 512,
+        "stressTargetLines": 10,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "72": {
+      "Message Passing Default": {
+        "seq": 22357,
+        "interleaved": 143,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 13879,
+        "interleaved": 7121,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 11930,
+        "interleaved": 70,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 10439,
+        "interleaved": 6061,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 20974,
+        "interleaved": 26,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 17986,
+        "interleaved": 14,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 70,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 735,
+        "memStressPattern": 3,
+        "memStressPct": 5,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 6,
+        "preStressPattern": 2,
+        "preStressPct": 65,
+        "scratchMemorySize": 12288,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 128,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "73": {
+      "Message Passing Default": {
+        "seq": 7200,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 8800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 12000,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 6400,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 8800,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 7154,
+        "interleaved": 46,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 50,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 308,
+        "memStressPattern": 0,
+        "memStressPct": 50,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 60,
+        "preStressPattern": 0,
+        "preStressPct": 30,
+        "scratchMemorySize": 1408,
+        "shufflePct": 70,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 4,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "74": {
+      "Message Passing Default": {
+        "seq": 19415,
+        "interleaved": 85,
+        "weak": 0
+      },
+      "Store Default": {
+        "seq": 13500,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "Read Default": {
+        "seq": 20710,
+        "interleaved": 290,
+        "weak": 0
+      },
+      "Load Buffer Default": {
+        "seq": 10365,
+        "interleaved": 6135,
+        "weak": 0
+      },
+      "Store Buffer Default": {
+        "seq": 19500,
+        "interleaved": 0,
+        "weak": 0
+      },
+      "2+2 Write Default": {
+        "seq": 16493,
+        "interleaved": 7,
+        "weak": 0
+      },
+      "Test Parameters": {
+        "aliasedMemory": 0,
+        "barrierPct": 35,
+        "gpuDeviceId": 7857,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 82,
+        "memStressPattern": 3,
+        "memStressPct": 80,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "numMemLocations": 2,
+        "numOutputs": 2,
+        "permuteFirst": 109,
+        "permuteSecond": 419,
+        "preStressIterations": 4,
+        "preStressPattern": 0,
+        "preStressPct": 60,
+        "scratchMemorySize": 8192,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 32,
+        "stressTargetLines": 8,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "gpu": "PowerVR GE8320",
+    "configurations": 75,
+    "randomSeed": "vulkan"
+  }
+]

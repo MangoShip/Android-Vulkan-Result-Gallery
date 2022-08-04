@@ -1,0 +1,30 @@
+.title {
+    font-size: 35px;
+    text-align: center;
+}
+
+.description {
+    font-size: 20px;
+    margin: 1%;
+}
+
+.deviceLink {
+    font-size: 17px;
+}
+
+.table {
+    width: 100%;
+}
+
+.deviceColumn {
+    width: 20%;
+}
+
+.testColumn {
+    width: 10%;
+}
+
+.behaviorColumn {
+    width: 10%;
+    color: black;
+}

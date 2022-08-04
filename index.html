@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>LitmusTestAndroid Result Gallery</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+
+<body>
+    <h1 class="title">LitmusTestAndroid Result Gallery</h1>
+    <h2>About:</h2>
+    <p class="description">
+        This is a table of behaviors observed in various Android devices' GPUs while running <a href="https://github.com/MangoShip/LitmusTestAndroid">LitmusTestAndroid</a>.
+        The test was performed for over 150 configurations of randomly generated parameters with 100 test iterations.
+        Each device was tested with a different range of numbers and sizes of workgroups. This range was determined based on the number and size of workgroups
+        that produced the most interleaved behaviors under a stressed testing environment. This was to increase the chance of seeing weak behaviors. 
+    </p>
+    <h2>About the table:</h2>
+    <p class="description">
+        The numbers in the green cell represent sequential behaviors, the numbers in the blue cell represent interleaved behaviors, 
+        and the numbers in the red cell represent weak behaviors. The numbers in the first row represent the total number of behaviors 
+        observed in 150 configurations, and the numbers in the second row represent the percentage out of all the behaviors in that test. 
+        Clicking on each device's name will let you download a json file that contains the test results and parameters of all 150 configurations
+        tested with that device. Clicking on a test name (e.g. Message Passing) will direct you to GPUHarbor's WebGPU Memory Model Testing 
+        website where you can receive more information about that litmus test. 
+    </p>
+    <table class="table" id="table" border = "1">
+        <tr>
+            <th class="deviceColumn">Device Name</th>
+            <th class="testColumn">Workgroup Number & Size</th>
+            <th class="testColumn"><a href="https://gpuharbor.ucsc.edu/webgpu-mem-testing/tests/message-passing/">Message Passing</a></th>
+            <th class="testColumn"><a href="https://gpuharbor.ucsc.edu/webgpu-mem-testing/tests/store/">Store</a></th>
+            <th class="testColumn"><a href="https://gpuharbor.ucsc.edu/webgpu-mem-testing/tests/read/">Read</a></th>
+            <th class="testColumn"><a href="https://gpuharbor.ucsc.edu/webgpu-mem-testing/tests/load-buffer/">Load Buffer</a></th>
+            <th class="testColumn"><a href="https://gpuharbor.ucsc.edu/webgpu-mem-testing/tests/store-buffer/">Store Buffer</a></th>
+            <th class="testColumn"><a href="https://gpuharbor.ucsc.edu/webgpu-mem-testing/tests/2-plus-2-write/">2+2 Write</a></th>
+        </tr>
+    </table>
+    <h2>Device Specs:</h2>
+    <ul class="deviceLink" id="deviceSpecs"></ul>
+    <script src="main.js"></script>
+</body>
+
+</html>
