@@ -1,2 +1,2 @@
 # Android-Vulkan-Result-Gallery
-https://mangoship.github.io/LitmusTestAndroid-Result-Gallery/
+https://mangoship.github.io/Android-Vulkan-Result-Gallery/
