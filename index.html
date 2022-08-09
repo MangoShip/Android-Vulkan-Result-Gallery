@@ -6,10 +6,10 @@
 </head>
 
 <body>
-    <h1 class="title">LitmusTestAndroid Result Gallery</h1>
+    <h1 class="title">Android Vulkan Result Gallery</h1>
     <h2>About:</h2>
     <p class="description">
-        This is a table of behaviors observed in various Android devices' GPUs while running <a href="https://github.com/MangoShip/LitmusTestAndroid">LitmusTestAndroid</a>.
+        This is a table of behaviors observed in various Android devices' GPUs while running <a href="https://github.com/MangoShip/LitmusTestAndroid">Android Vulkan Memory Model Testing</a>.
         The test was performed for over 150 configurations of randomly generated parameters with 100 test iterations.
         Each device was tested with a different range of numbers and sizes of workgroups. This range was determined based on the number and size of workgroups
         that produced the most interleaved behaviors under a stressed testing environment. This was to increase the chance of seeing weak behaviors. 
@@ -26,7 +26,8 @@
     <table class="table" id="table" border = "1">
         <tr>
             <th class="deviceColumn">Device Name</th>
-            <th class="testColumn">Workgroup Number & Size</th>
+            <th class="testColumn">Workgroup Number</th>
+            <th class="testColumn">Workgroup Size</th>
             <th class="testColumn"><a href="https://gpuharbor.ucsc.edu/webgpu-mem-testing/tests/message-passing/">Message Passing</a></th>
             <th class="testColumn"><a href="https://gpuharbor.ucsc.edu/webgpu-mem-testing/tests/store/">Store</a></th>
             <th class="testColumn"><a href="https://gpuharbor.ucsc.edu/webgpu-mem-testing/tests/read/">Read</a></th>
