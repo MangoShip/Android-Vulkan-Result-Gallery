@@ -20,6 +20,10 @@
     width: 20%;
 }
 
+.workgroupColumn {
+    width: 5%;
+}
+
 .testColumn {
     width: 10%;
 }
