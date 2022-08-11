@@ -3,9 +3,9 @@ const resultFiles = ["Samsung SM-T510 (ARM Mali - G71)", "Pixel 6 (ARM Mali - G7
 const litmusTest = ["Message Passing Default", "Store Default", "Read Default",
                     "Load Buffer Default", "Store Buffer Default", "2+2 Write Default"];
 
-const workgroupNum = [[16,32], [4,8], [2,8], [4,8], [8,16], [16,32]];
+const workgroupNum = [[4,8], [16,32], [4,8], [2,8], [8,16], [16,32]];
 
-const workgroupSize = [[16,32], [4,8], [4,16], [4,8], [8,16], [16,32]];
+const workgroupSize = [[4,8], [16,32], [4,8], [4,16], [8,16], [16,32]];
 
 const cellColor = ["#CCFFCC", "#CCFFFF", "#FFCCCC"];
 
