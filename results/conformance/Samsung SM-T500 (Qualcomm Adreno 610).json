@@ -1,0 +1,108 @@
+[
+  {
+    "0": {
+      "message_passing (single)": {
+        "Non-weak": 28000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "load_buffer (single)": {
+        "Non-weak": 20000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 28000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 20000,
+        "Weak": 0
+      },
+      "write_22 (single)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 20000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 20000,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 20000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 28000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "testIterations": 1000,
+        "testingWorkgroups": 4,
+        "maxWorkgroups": 8,
+        "minWorkgroupSize": 4,
+        "maxWorkgroupSize": 8,
+        "shufflePct": 100,
+        "barrierPct": 100,
+        "scratchMemorySize": 2048,
+        "memStride": 4,
+        "memStressPct": 100,
+        "memStressIterations": 1024,
+        "memStressPattern": 2,
+        "preStressPct": 100,
+        "preStressIterations": 128,
+        "preStressPattern": 2,
+        "stressLineSize": 64,
+        "stressTargetLines": 2,
+        "stressAssignmentStrategy": 0
+      }
+    },
+    "gpu": "Adreno (TM) 610",
+    "testCount": 20
+  }
+]

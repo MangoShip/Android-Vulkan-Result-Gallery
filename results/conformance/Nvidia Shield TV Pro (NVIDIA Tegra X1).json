@@ -1,0 +1,108 @@
+[
+  {
+    "0": {
+      "message_passing (single)": {
+        "Non-weak": 336000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 352000,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 272000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 288000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 400000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 464000,
+        "Weak": 0
+      },
+      "load_buffer (single)": {
+        "Non-weak": 464000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 464000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 432000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 480000,
+        "Weak": 0
+      },
+      "write_22 (single)": {
+        "Non-weak": 432000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 336000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 359079,
+        "Weak": 24921
+      },
+      "corr (RMW)": {
+        "Non-weak": 400000,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 432000,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 352000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 416000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 448000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 288000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 336000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "testIterations": 1000,
+        "testingWorkgroups": 16,
+        "maxWorkgroups": 32,
+        "minWorkgroupSize": 16,
+        "maxWorkgroupSize": 32,
+        "shufflePct": 100,
+        "barrierPct": 100,
+        "scratchMemorySize": 2048,
+        "memStride": 4,
+        "memStressPct": 100,
+        "memStressIterations": 1024,
+        "memStressPattern": 2,
+        "preStressPct": 100,
+        "preStressIterations": 128,
+        "preStressPattern": 2,
+        "stressLineSize": 64,
+        "stressTargetLines": 2,
+        "stressAssignmentStrategy": 0
+      }
+    },
+    "gpu": "NVIDIA Tegra X1 (rev B) (nvgpu)",
+    "testCount": 20
+  }
+]
