@@ -141,7 +141,7 @@ function main() {
     })
 
     // Add conformance test result
-    conformanceResultFiles.forEach(resultFile => {
+    /*conformanceResultFiles.forEach(resultFile => {
         var fileName = "./results/conformance/" + resultFile + ".json";
         fetch(fileName)
             .then(function(resp) {
@@ -240,7 +240,7 @@ function main() {
                 console.error(error);
             })
 
-    })
+    })*/
 
 }
 
