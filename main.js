@@ -141,36 +141,32 @@ function main() {
     })
 
     // Add conformance test result
-    /*conformanceResultFiles.forEach(resultFile => {
+    conformanceResultFiles.forEach(resultFile => {
         var fileName = "./results/conformance/" + resultFile + ".json";
         fetch(fileName)
             .then(function(resp) {
                 return resp.json();
             })
             .then(function(data) {
-                var testConfig = data[0][0];
-                var numTests = data[0]["testCount"];
-                var numPassedTests = numTests;
-                var passedTests = "";
-                var violatedTests = "";
+                var numConfig = data[0].configurations;
+                var violatedTestMap = {};
 
-                // Get behaviors
+                // Initialize violatedTestMap
                 conformanceLitmusTest.forEach(testName => {
-                    if(testConfig[testName]["Weak"] > 0) {
-                        violatedTests += testName + ", ";
-                        numPassedTests--;
-                    }
-                    else {
-                        passedTests += testName + ", ";
-                    }
+                    violatedTestMap[testName] = 0;
                 })
 
-                // Cut off comman and whitespace
-                if(violatedTests.length > 0) {
-                    violatedTests = violatedTests.substring(0, violatedTests.length - 2);
-                }
-                if(passedTests.length > 0) {
-                    passedTests = passedTests.substring(0, passedTests.length - 2);
+                for(let i = 0; i < numConfig; i++) {
+                    var testConfig = data[0][i];
+
+                    // Get total number of tests violated
+                    conformanceLitmusTest.forEach(testName => {
+                        var weakBehavior = testConfig[testName]["Weak"];
+
+                        if(weakBehavior > 0) {
+                            violatedTestMap[testName]++;
+                        }
+                    })
                 }
 
                 var tr = document.getElementById(resultFile + "_conformance");
@@ -202,45 +198,50 @@ function main() {
                 th.appendChild(workgroupSizeRange);
                 tr.appendChild(th);
 
-                // Add list of test column
-                th = document.createElement('th');
+                // Add list of tests failed
                 var nestedTable = document.createElement('table');
-                var nestedTr = document.createElement('tr');
-                var nestedTh = document.createElement('th');
+                th = document.createElement('th');
 
-                // Add passed tests list
-                var passedTestsNode = document.createTextNode(passedTests);
-                nestedTh.setAttribute('class', 'conformanceTestColumn');
-                nestedTh.setAttribute('bgcolor', cellColor[0]);
-                nestedTh.appendChild(passedTestsNode);
-                nestedTr.appendChild(nestedTh);
-                nestedTable.appendChild(nestedTr);
+                conformanceLitmusTest.forEach(testName => {
+                    if(violatedTestMap[testName] > 0) {
+                        var nestedTr = document.createElement('tr');
+                        var nestedTh = document.createElement('th');
 
-                // Add violated tests list
-                var violatedTestsNode = document.createTextNode(violatedTests);
-                nestedTr = document.createElement('tr');
-                nestedTh = document.createElement('th');
-                nestedTh.setAttribute('class', 'conformanceTestColumn');
-                nestedTh.setAttribute('bgcolor', cellColor[2]);
-                nestedTh.appendChild(violatedTestsNode);
-                nestedTr.appendChild(nestedTh);
-                nestedTable.appendChild(nestedTr);
-
+                        var violatedTestNode = document.createTextNode(testName);
+                        nestedTh.setAttribute('class', 'violatedTestColumn');
+                        nestedTh.setAttribute('bgcolor', cellColor[2]);
+                        nestedTh.appendChild(violatedTestNode);
+                        nestedTr.appendChild(nestedTh);
+                        nestedTable.appendChild(nestedTr);
+                    }
+                })
                 th.appendChild(nestedTable);
                 tr.appendChild(th);
 
-                // Add number of test passed column
-                var numPassedTestNode = document.createTextNode(numPassedTests + "/" + numTests);
+                // Add number of tests failed
+                var nestedTable = document.createElement('table');
                 th = document.createElement('th');
-                th.setAttribute('class', 'workgroupColumn');
-                th.appendChild(numPassedTestNode);
+
+                conformanceLitmusTest.forEach(testName => {
+                    if(violatedTestMap[testName] > 0) {
+                        var nestedTr = document.createElement('tr');
+                        var nestedTh = document.createElement('th');
+
+                        var violatedTestNode = document.createTextNode(violatedTestMap[testName] + "/" + numConfig);
+                        nestedTh.setAttribute('class', 'workgroupColumn');
+                        nestedTh.appendChild(violatedTestNode);
+                        nestedTr.appendChild(nestedTh);
+                        nestedTable.appendChild(nestedTr);
+                    }
+                })
+                th.appendChild(nestedTable);
                 tr.appendChild(th);
             })
             .catch((error) => {
                 console.error(error);
             })
 
-    })*/
+    })
 
 }
 

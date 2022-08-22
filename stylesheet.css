@@ -36,3 +36,7 @@
 .conformanceTestColumn {
     width: 40%;
 }
+
+.violatedTestColumn {
+    width: 1%;
+}

@@ -2,107 +2,5106 @@
   {
     "0": {
       "message_passing (single)": {
-        "Non-weak": 64000,
+        "Non-weak": 9000,
         "Weak": 0
       },
       "message_passing (barrier)": {
-        "Non-weak": 88000,
+        "Non-weak": 14000,
         "Weak": 0
       },
       "store (single)": {
-        "Non-weak": 96000,
+        "Non-weak": 10000,
         "Weak": 0
       },
       "store (barrier)": {
-        "Non-weak": 96000,
+        "Non-weak": 15000,
         "Weak": 0
       },
       "read (single)": {
-        "Non-weak": 104000,
+        "Non-weak": 11000,
         "Weak": 0
       },
       "read (barrier)": {
         "Non-weak": 0,
-        "Weak": 80000
+        "Weak": 10000
       },
       "load_buffer (single)": {
-        "Non-weak": 104000,
+        "Non-weak": 12000,
         "Weak": 0
       },
       "load_buffer (barrier)": {
-        "Non-weak": 104000,
+        "Non-weak": 9000,
         "Weak": 0
       },
       "store_buffer (single)": {
-        "Non-weak": 96000,
+        "Non-weak": 12000,
         "Weak": 0
       },
       "store_buffer (barrier)": {
         "Non-weak": 0,
-        "Weak": 72000
+        "Weak": 11000
       },
       "write_22 (single)": {
-        "Non-weak": 72000,
+        "Non-weak": 14000,
         "Weak": 0
       },
       "write_22 (barrier)": {
-        "Non-weak": 64000,
+        "Non-weak": 8000,
         "Weak": 0
       },
       "corr": {
-        "Non-weak": 72000,
+        "Non-weak": 12000,
         "Weak": 0
       },
       "corr (RMW)": {
-        "Non-weak": 120000,
+        "Non-weak": 11000,
         "Weak": 0
       },
       "corw2": {
-        "Non-weak": 96000,
+        "Non-weak": 9000,
         "Weak": 0
       },
       "corw2 (RMW)": {
-        "Non-weak": 96000,
+        "Non-weak": 15000,
         "Weak": 0
       },
       "cowr": {
-        "Non-weak": 88000,
+        "Non-weak": 15000,
         "Weak": 0
       },
       "cowr (RMW)": {
-        "Non-weak": 104000,
+        "Non-weak": 12000,
         "Weak": 0
       },
       "coww": {
-        "Non-weak": 88000,
+        "Non-weak": 14000,
         "Weak": 0
       },
       "coww (RMW)": {
-        "Non-weak": 64000,
+        "Non-weak": 9000,
         "Weak": 0
       },
       "Test Parameters": {
-        "testIterations": 1000,
-        "testingWorkgroups": 8,
-        "maxWorkgroups": 16,
-        "minWorkgroupSize": 8,
+        "barrierPct": 85,
         "maxWorkgroupSize": 16,
-        "shufflePct": 100,
-        "barrierPct": 100,
-        "scratchMemorySize": 2048,
-        "memStride": 4,
-        "memStressPct": 100,
-        "memStressIterations": 1024,
+        "maxWorkgroups": 16,
+        "memStressIterations": 410,
         "memStressPattern": 2,
-        "preStressPct": 100,
-        "preStressIterations": 128,
+        "memStressPct": 0,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 114,
         "preStressPattern": 2,
+        "preStressPct": 40,
+        "scratchMemorySize": 131072,
+        "shufflePct": 10,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 1024,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "1": {
+      "message_passing (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 16900,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 16900,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 3264,
+        "Weak": 16236
+      },
+      "load_buffer (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 16900,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 13000
+      },
+      "write_22 (single)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 16900,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 16900,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 16900,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 5,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 211,
+        "memStressPattern": 3,
+        "memStressPct": 30,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 127,
+        "preStressPattern": 0,
+        "preStressPct": 55,
+        "scratchMemorySize": 114688,
+        "shufflePct": 10,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 512,
+        "stressTargetLines": 7,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "2": {
+      "message_passing (single)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 270,
+        "Weak": 10930
+      },
+      "load_buffer (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 19600
+      },
+      "write_22 (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 10,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 237,
+        "memStressPattern": 2,
+        "memStressPct": 95,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 92,
+        "preStressPattern": 3,
+        "preStressPct": 35,
+        "scratchMemorySize": 98304,
+        "shufflePct": 20,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 1024,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "3": {
+      "message_passing (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 712,
+        "Weak": 8888
+      },
+      "load_buffer (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 6400
+      },
+      "write_22 (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 5,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 227,
+        "memStressPattern": 0,
+        "memStressPct": 25,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 64,
+        "preStressPattern": 1,
+        "preStressPct": 50,
+        "scratchMemorySize": 180224,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 512,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "4": {
+      "message_passing (single)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 52,
+        "Weak": 11148
+      },
+      "load_buffer (single)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 12000
+      },
+      "write_22 (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 90,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 840,
+        "memStressPattern": 3,
+        "memStressPct": 65,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 23,
+        "preStressPattern": 0,
+        "preStressPct": 75,
+        "scratchMemorySize": 32768,
+        "shufflePct": 95,
+        "stressAssignmentStrategy": 1,
         "stressLineSize": 64,
+        "stressTargetLines": 16,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "5": {
+      "message_passing (single)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 2140,
+        "Weak": 14660
+      },
+      "load_buffer (single)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 9600
+      },
+      "write_22 (single)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 50,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 152,
+        "memStressPattern": 3,
+        "memStressPct": 70,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 126,
+        "preStressPattern": 0,
+        "preStressPct": 75,
+        "scratchMemorySize": 131072,
+        "shufflePct": 5,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 512,
+        "stressTargetLines": 8,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "6": {
+      "message_passing (single)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 12800,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 22400,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 12800,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 17600,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 143,
+        "Weak": 17457
+      },
+      "load_buffer (single)": {
+        "Non-weak": 17600,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 20800,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 139,
+        "Weak": 22261
+      },
+      "write_22 (single)": {
+        "Non-weak": 22400,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 17600,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 22400,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 12800,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 20800,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 95,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 814,
+        "memStressPattern": 2,
+        "memStressPct": 10,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 21,
+        "preStressPattern": 0,
+        "preStressPct": 25,
+        "scratchMemorySize": 212992,
+        "shufflePct": 40,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 512,
+        "stressTargetLines": 13,
+        "testIterations": 100,
+        "testingWorkgroups": 16
+      }
+    },
+    "7": {
+      "message_passing (single)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 89,
+        "Weak": 16711
+      },
+      "load_buffer (single)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 1,
+        "Weak": 17999
+      },
+      "write_22 (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 20,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 695,
+        "memStressPattern": 0,
+        "memStressPct": 70,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 122,
+        "preStressPattern": 1,
+        "preStressPct": 85,
+        "scratchMemorySize": 16384,
+        "shufflePct": 30,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 32,
+        "stressTargetLines": 16,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "8": {
+      "message_passing (single)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 437,
+        "Weak": 13863
+      },
+      "load_buffer (single)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 10400
+      },
+      "write_22 (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 80,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 331,
+        "memStressPattern": 3,
+        "memStressPct": 25,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 5,
+        "preStressPattern": 3,
+        "preStressPct": 65,
+        "scratchMemorySize": 57344,
+        "shufflePct": 80,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 128,
+        "stressTargetLines": 14,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "9": {
+      "message_passing (single)": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 22500,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 1584,
+        "Weak": 14916
+      },
+      "load_buffer (single)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 22500,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 2,
+        "Weak": 20998
+      },
+      "write_22 (single)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 22500,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 20,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 22,
+        "memStressPattern": 1,
+        "memStressPct": 85,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 61,
+        "preStressPattern": 1,
+        "preStressPct": 55,
+        "scratchMemorySize": 49152,
+        "shufflePct": 55,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 128,
+        "stressTargetLines": 12,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "10": {
+      "message_passing (single)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 33,
+        "Weak": 9867
+      },
+      "load_buffer (single)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 12600
+      },
+      "write_22 (single)": {
+        "Non-weak": 8100,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 55,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 399,
+        "memStressPattern": 1,
+        "memStressPct": 75,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 12,
+        "preStressPattern": 1,
+        "preStressPct": 20,
+        "scratchMemorySize": 8192,
+        "shufflePct": 40,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 256,
+        "stressTargetLines": 1,
+        "testIterations": 100,
+        "testingWorkgroups": 9
+      }
+    },
+    "11": {
+      "message_passing (single)": {
+        "Non-weak": 8100,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 298,
+        "Weak": 8702
+      },
+      "load_buffer (single)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 8100,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 12600
+      },
+      "write_22 (single)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 8100,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 35,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 838,
+        "memStressPattern": 0,
+        "memStressPct": 40,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 36,
+        "preStressPattern": 1,
+        "preStressPct": 50,
+        "scratchMemorySize": 1408,
+        "shufflePct": 60,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 4,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 9
+      }
+    },
+    "12": {
+      "message_passing (single)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 482,
+        "Weak": 9918
+      },
+      "load_buffer (single)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 10400
+      },
+      "write_22 (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 90,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 330,
+        "memStressPattern": 3,
+        "memStressPct": 90,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 42,
+        "preStressPattern": 3,
+        "preStressPct": 95,
+        "scratchMemorySize": 24576,
+        "shufflePct": 45,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 256,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "13": {
+      "message_passing (single)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 258,
+        "Weak": 12942
+      },
+      "load_buffer (single)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 10800
+      },
+      "write_22 (single)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 80,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 287,
+        "memStressPattern": 0,
+        "memStressPct": 90,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 12,
+        "preStressPattern": 1,
+        "preStressPct": 55,
+        "scratchMemorySize": 5120,
+        "shufflePct": 55,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 5,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "14": {
+      "message_passing (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 109,
+        "Weak": 17891
+      },
+      "load_buffer (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 5,
+        "Weak": 16795
+      },
+      "write_22 (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 80,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 584,
+        "memStressPattern": 2,
+        "memStressPct": 75,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 46,
+        "preStressPattern": 2,
+        "preStressPct": 55,
+        "scratchMemorySize": 61440,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 128,
+        "stressTargetLines": 15,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "15": {
+      "message_passing (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 827,
+        "Weak": 8773
+      },
+      "load_buffer (single)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 2,
+        "Weak": 11198
+      },
+      "write_22 (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 20,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 616,
+        "memStressPattern": 1,
+        "memStressPct": 0,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 36,
+        "preStressPattern": 1,
+        "preStressPct": 70,
+        "scratchMemorySize": 30720,
+        "shufflePct": 80,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 64,
+        "stressTargetLines": 15,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "16": {
+      "message_passing (single)": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 128,
+        "Weak": 13872
+      },
+      "load_buffer (single)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 12000
+      },
+      "write_22 (single)": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 10000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 10000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 40,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 754,
+        "memStressPattern": 2,
+        "memStressPct": 50,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 93,
+        "preStressPattern": 1,
+        "preStressPct": 20,
+        "scratchMemorySize": 180224,
+        "shufflePct": 60,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 512,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "17": {
+      "message_passing (single)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 49,
+        "Weak": 12051
+      },
+      "load_buffer (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 8800
+      },
+      "write_22 (single)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 65,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 626,
+        "memStressPattern": 0,
+        "memStressPct": 40,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 84,
+        "preStressPattern": 2,
+        "preStressPct": 30,
+        "scratchMemorySize": 1536,
+        "shufflePct": 15,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 8,
+        "stressTargetLines": 6,
+        "testIterations": 100,
+        "testingWorkgroups": 11
+      }
+    },
+    "18": {
+      "message_passing (single)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 19200,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 19200,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 22400,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 4534,
+        "Weak": 17866
+      },
+      "load_buffer (single)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 20800,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 20800
+      },
+      "write_22 (single)": {
+        "Non-weak": 12800,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 19200,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 12800,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 20800,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 19200,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 17600,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 22400,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 55,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 871,
+        "memStressPattern": 3,
+        "memStressPct": 5,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 41,
+        "preStressPattern": 0,
+        "preStressPct": 90,
+        "scratchMemorySize": 6656,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 16,
+        "stressTargetLines": 13,
+        "testIterations": 100,
+        "testingWorkgroups": 16
+      }
+    },
+    "19": {
+      "message_passing (single)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 523,
+        "Weak": 14477
+      },
+      "load_buffer (single)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 16500
+      },
+      "write_22 (single)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 22500,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 22500,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 50,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 690,
+        "memStressPattern": 1,
+        "memStressPct": 95,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 80,
+        "preStressPattern": 1,
+        "preStressPct": 30,
+        "scratchMemorySize": 11264,
+        "shufflePct": 30,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "20": {
+      "message_passing (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 890,
+        "Weak": 7110
+      },
+      "load_buffer (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 2,
+        "Weak": 11998
+      },
+      "write_22 (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 45,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 922,
+        "memStressPattern": 3,
+        "memStressPct": 10,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 20,
+        "preStressPattern": 3,
+        "preStressPct": 85,
+        "scratchMemorySize": 20480,
+        "shufflePct": 95,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 128,
+        "stressTargetLines": 5,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "21": {
+      "message_passing (single)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 913,
+        "Weak": 17087
+      },
+      "load_buffer (single)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 15000
+      },
+      "write_22 (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 50,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 866,
+        "memStressPattern": 0,
+        "memStressPct": 60,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 68,
+        "preStressPattern": 0,
+        "preStressPct": 70,
+        "scratchMemorySize": 2048,
+        "shufflePct": 50,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 8,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "22": {
+      "message_passing (single)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 22500,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 121,
+        "Weak": 20879
+      },
+      "load_buffer (single)": {
+        "Non-weak": 22500,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 15000
+      },
+      "write_22 (single)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 22500,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 15,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 626,
+        "memStressPattern": 3,
+        "memStressPct": 5,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 40,
+        "preStressPattern": 2,
+        "preStressPct": 40,
+        "scratchMemorySize": 3072,
+        "shufflePct": 95,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 15
+      }
+    },
+    "23": {
+      "message_passing (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 815,
+        "Weak": 10185
+      },
+      "load_buffer (single)": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 14300
+      },
+      "write_22 (single)": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 45,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 283,
+        "memStressPattern": 1,
+        "memStressPct": 75,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 33,
+        "preStressPattern": 1,
+        "preStressPct": 80,
+        "scratchMemorySize": 768,
+        "shufflePct": 50,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 11
+      }
+    },
+    "24": {
+      "message_passing (single)": {
+        "Non-weak": 17600,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 19200,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 22400,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 20800,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 1361,
+        "Weak": 14639
+      },
+      "load_buffer (single)": {
+        "Non-weak": 17600,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 12800,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 17600
+      },
+      "write_22 (single)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 22400,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 20800,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 20800,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 19200,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 12800,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 17600,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 0,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 483,
+        "memStressPattern": 1,
+        "memStressPct": 65,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 23,
+        "preStressPattern": 0,
+        "preStressPct": 50,
+        "scratchMemorySize": 12288,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 12,
+        "testIterations": 100,
+        "testingWorkgroups": 16
+      }
+    },
+    "25": {
+      "message_passing (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 16900,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 0,
+        "Weak": 10400
+      },
+      "load_buffer (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 3,
+        "Weak": 19497
+      },
+      "write_22 (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 70,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 884,
+        "memStressPattern": 1,
+        "memStressPct": 55,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 12,
+        "preStressPattern": 2,
+        "preStressPct": 85,
+        "scratchMemorySize": 20480,
+        "shufflePct": 95,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 64,
+        "stressTargetLines": 10,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "26": {
+      "message_passing (single)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 823,
+        "Weak": 13577
+      },
+      "load_buffer (single)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 15600
+      },
+      "write_22 (single)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 65,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 13,
+        "memStressPattern": 1,
+        "memStressPct": 50,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 125,
+        "preStressPattern": 1,
+        "preStressPct": 65,
+        "scratchMemorySize": 14336,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 14,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "27": {
+      "message_passing (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 385,
+        "Weak": 11715
+      },
+      "load_buffer (single)": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 12100
+      },
+      "write_22 (single)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 16500,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 20,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 156,
+        "memStressPattern": 2,
+        "memStressPct": 95,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 107,
+        "preStressPattern": 2,
+        "preStressPct": 70,
+        "scratchMemorySize": 57344,
+        "shufflePct": 40,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 128,
+        "stressTargetLines": 14,
+        "testIterations": 100,
+        "testingWorkgroups": 11
+      }
+    },
+    "28": {
+      "message_passing (single)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 16900,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 709,
+        "Weak": 17491
+      },
+      "load_buffer (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 11700
+      },
+      "write_22 (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 16900,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 85,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 344,
+        "memStressPattern": 1,
+        "memStressPct": 85,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 52,
+        "preStressPattern": 0,
+        "preStressPct": 75,
+        "scratchMemorySize": 131072,
+        "shufflePct": 10,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 1024,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "29": {
+      "message_passing (single)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 58,
+        "Weak": 18142
+      },
+      "load_buffer (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 6,
+        "Weak": 20994
+      },
+      "write_22 (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 75,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 508,
+        "memStressPattern": 1,
+        "memStressPct": 40,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 16,
+        "preStressPattern": 2,
+        "preStressPct": 35,
+        "scratchMemorySize": 1792,
+        "shufflePct": 45,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 7,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "30": {
+      "message_passing (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 28,
+        "Weak": 16772
+      },
+      "load_buffer (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 18000
+      },
+      "write_22 (single)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 20,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 914,
+        "memStressPattern": 0,
+        "memStressPct": 0,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 92,
+        "preStressPattern": 2,
+        "preStressPct": 25,
+        "scratchMemorySize": 32768,
+        "shufflePct": 10,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 256,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "31": {
+      "message_passing (single)": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 10000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 1701,
+        "Weak": 13299
+      },
+      "load_buffer (single)": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 13000
+      },
+      "write_22 (single)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 10000,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 10000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 20,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 464,
+        "memStressPattern": 3,
+        "memStressPct": 60,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 12,
+        "preStressPattern": 3,
+        "preStressPct": 65,
+        "scratchMemorySize": 11264,
+        "shufflePct": 40,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "32": {
+      "message_passing (single)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 8100,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 567,
+        "Weak": 12033
+      },
+      "load_buffer (single)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 13500
+      },
+      "write_22 (single)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 13500,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 8100,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 25,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 523,
+        "memStressPattern": 1,
+        "memStressPct": 45,
+        "memStride": 3,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 114,
+        "preStressPattern": 3,
+        "preStressPct": 75,
+        "scratchMemorySize": 65536,
+        "shufflePct": 30,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 128,
+        "stressTargetLines": 16,
+        "testIterations": 100,
+        "testingWorkgroups": 9
+      }
+    },
+    "33": {
+      "message_passing (single)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 490,
+        "Weak": 11510
+      },
+      "load_buffer (single)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 10000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 11000
+      },
+      "write_22 (single)": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 10000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 10000,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 10000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 55,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 451,
+        "memStressPattern": 0,
+        "memStressPct": 30,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 25,
+        "preStressPattern": 0,
+        "preStressPct": 55,
+        "scratchMemorySize": 49152,
+        "shufflePct": 55,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 512,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "34": {
+      "message_passing (single)": {
+        "Non-weak": 10000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 841,
+        "Weak": 12159
+      },
+      "load_buffer (single)": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 8000
+      },
+      "write_22 (single)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 15000,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 70,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 693,
+        "memStressPattern": 0,
+        "memStressPct": 75,
+        "memStride": 3,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 13,
+        "preStressPattern": 0,
+        "preStressPct": 65,
+        "scratchMemorySize": 114688,
+        "shufflePct": 55,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 512,
+        "stressTargetLines": 7,
+        "testIterations": 100,
+        "testingWorkgroups": 10
+      }
+    },
+    "35": {
+      "message_passing (single)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 0,
+        "Weak": 9900
+      },
+      "load_buffer (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 14300
+      },
+      "write_22 (single)": {
+        "Non-weak": 11000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 12100,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 55,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 657,
+        "memStressPattern": 2,
+        "memStressPct": 0,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 39,
+        "preStressPattern": 2,
+        "preStressPct": 35,
+        "scratchMemorySize": 32768,
+        "shufflePct": 60,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 64,
+        "stressTargetLines": 16,
+        "testIterations": 100,
+        "testingWorkgroups": 11
+      }
+    },
+    "36": {
+      "message_passing (single)": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 12800,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 12800,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 20800,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 68,
+        "Weak": 14332
+      },
+      "load_buffer (single)": {
+        "Non-weak": 19200,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 24000
+      },
+      "write_22 (single)": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 12800,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 19200,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 20800,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 16000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 17600,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 24000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 12800,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 25,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 57,
+        "memStressPattern": 3,
+        "memStressPct": 20,
+        "memStride": 4,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 68,
+        "preStressPattern": 2,
+        "preStressPct": 5,
+        "scratchMemorySize": 131072,
+        "shufflePct": 5,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 256,
+        "stressTargetLines": 16,
+        "testIterations": 100,
+        "testingWorkgroups": 16
+      }
+    },
+    "37": {
+      "message_passing (single)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 9,
+        "Weak": 7191
+      },
+      "load_buffer (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 3,
+        "Weak": 10397
+      },
+      "write_22 (single)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 5,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 158,
+        "memStressPattern": 1,
+        "memStressPct": 95,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 12,
+        "preStressPattern": 0,
+        "preStressPct": 45,
+        "scratchMemorySize": 81920,
+        "shufflePct": 45,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 512,
+        "stressTargetLines": 5,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "38": {
+      "message_passing (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 0,
+        "Weak": 18200
+      },
+      "load_buffer (single)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 19600
+      },
+      "write_22 (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 5,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 290,
+        "memStressPattern": 3,
+        "memStressPct": 20,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 32,
+        "preStressPattern": 2,
+        "preStressPct": 30,
+        "scratchMemorySize": 4096,
+        "shufflePct": 80,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 32,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "39": {
+      "message_passing (single)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 8100,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 28,
+        "Weak": 8972
+      },
+      "load_buffer (single)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 9000
+      },
+      "write_22 (single)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 9000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 9900,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 8100,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 45,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 411,
+        "memStressPattern": 3,
+        "memStressPct": 40,
+        "memStride": 2,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 81,
+        "preStressPattern": 2,
+        "preStressPct": 5,
+        "scratchMemorySize": 768,
+        "shufflePct": 0,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 8,
+        "stressTargetLines": 3,
+        "testIterations": 100,
+        "testingWorkgroups": 9
+      }
+    },
+    "40": {
+      "message_passing (single)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 0,
+        "Weak": 15400
+      },
+      "load_buffer (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 16800
+      },
+      "write_22 (single)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 10,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 1002,
+        "memStressPattern": 1,
+        "memStressPct": 40,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 67,
+        "preStressPattern": 2,
+        "preStressPct": 100,
+        "scratchMemorySize": 1664,
+        "shufflePct": 0,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 4,
+        "stressTargetLines": 13,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "41": {
+      "message_passing (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 523,
+        "Weak": 20477
+      },
+      "load_buffer (single)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 1,
+        "Weak": 19599
+      },
+      "write_22 (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 40,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 794,
+        "memStressPattern": 0,
+        "memStressPct": 25,
+        "memStride": 7,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 29,
+        "preStressPattern": 0,
+        "preStressPct": 20,
+        "scratchMemorySize": 3840,
+        "shufflePct": 40,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 15,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "42": {
+      "message_passing (single)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 8000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 135,
+        "Weak": 10265
+      },
+      "load_buffer (single)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 6400
+      },
+      "write_22 (single)": {
+        "Non-weak": 6400,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 8800,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 7200,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 40,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 33,
+        "memStressPattern": 0,
+        "memStressPct": 60,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 31,
+        "preStressPattern": 1,
+        "preStressPct": 5,
+        "scratchMemorySize": 360448,
+        "shufflePct": 85,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 1024,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 8
+      }
+    },
+    "43": {
+      "message_passing (single)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 243,
+        "Weak": 12757
+      },
+      "load_buffer (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 11700
+      },
+      "write_22 (single)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 16900,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 65,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 558,
+        "memStressPattern": 0,
+        "memStressPct": 50,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 71,
+        "preStressPattern": 0,
+        "preStressPct": 40,
+        "scratchMemorySize": 1024,
+        "shufflePct": 50,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 4,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "44": {
+      "message_passing (single)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 1439,
+        "Weak": 18061
+      },
+      "load_buffer (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 16900,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 11700
+      },
+      "write_22 (single)": {
+        "Non-weak": 14300,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 11700,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 10400,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 19500,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 13000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 65,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 137,
+        "memStressPattern": 3,
+        "memStressPct": 50,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 90,
+        "preStressPattern": 0,
+        "preStressPct": 55,
+        "scratchMemorySize": 26624,
+        "shufflePct": 75,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 64,
+        "stressTargetLines": 13,
+        "testIterations": 100,
+        "testingWorkgroups": 13
+      }
+    },
+    "45": {
+      "message_passing (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 13200,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 0,
+        "Weak": 18000
+      },
+      "load_buffer (single)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 13200
+      },
+      "write_22 (single)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 45,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 13,
+        "memStressPattern": 3,
+        "memStressPct": 90,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 1,
+        "preStressPattern": 1,
+        "preStressPct": 95,
+        "scratchMemorySize": 3840,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 8,
+        "stressTargetLines": 15,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "46": {
+      "message_passing (single)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 10800,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 22,
+        "Weak": 9578
+      },
+      "load_buffer (single)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 10800
+      },
+      "write_22 (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 14400,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 15600,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 9600,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 18000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 12000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 90,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 562,
+        "memStressPattern": 0,
+        "memStressPct": 85,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 70,
+        "preStressPattern": 2,
+        "preStressPct": 5,
+        "scratchMemorySize": 45056,
+        "shufflePct": 60,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 128,
+        "stressTargetLines": 11,
+        "testIterations": 100,
+        "testingWorkgroups": 12
+      }
+    },
+    "47": {
+      "message_passing (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 25,
+        "Weak": 12575
+      },
+      "load_buffer (single)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 11200
+      },
+      "write_22 (single)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 80,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 937,
+        "memStressPattern": 0,
+        "memStressPct": 30,
+        "memStride": 5,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 37,
+        "preStressPattern": 2,
+        "preStressPct": 85,
+        "scratchMemorySize": 5120,
+        "shufflePct": 30,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 16,
+        "stressTargetLines": 10,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "48": {
+      "message_passing (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 111,
+        "Weak": 19489
+      },
+      "load_buffer (single)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 0,
+        "Weak": 15400
+      },
+      "write_22 (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 80,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 147,
+        "memStressPattern": 0,
+        "memStressPct": 85,
+        "memStride": 1,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 0,
+        "preStressPattern": 3,
+        "preStressPct": 95,
+        "scratchMemorySize": 196608,
+        "shufflePct": 25,
+        "stressAssignmentStrategy": 1,
+        "stressLineSize": 1024,
+        "stressTargetLines": 6,
+        "testIterations": 100,
+        "testingWorkgroups": 14
+      }
+    },
+    "49": {
+      "message_passing (single)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "message_passing (barrier)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "store (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "store (barrier)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "read (single)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "read (barrier)": {
+        "Non-weak": 362,
+        "Weak": 20638
+      },
+      "load_buffer (single)": {
+        "Non-weak": 18200,
+        "Weak": 0
+      },
+      "load_buffer (barrier)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "store_buffer (single)": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "store_buffer (barrier)": {
+        "Non-weak": 4,
+        "Weak": 15396
+      },
+      "write_22 (single)": {
+        "Non-weak": 21000,
+        "Weak": 0
+      },
+      "write_22 (barrier)": {
+        "Non-weak": 14000,
+        "Weak": 0
+      },
+      "corr": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "corr (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "corw2": {
+        "Non-weak": 16800,
+        "Weak": 0
+      },
+      "corw2 (RMW)": {
+        "Non-weak": 11200,
+        "Weak": 0
+      },
+      "cowr": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "cowr (RMW)": {
+        "Non-weak": 15400,
+        "Weak": 0
+      },
+      "coww": {
+        "Non-weak": 19600,
+        "Weak": 0
+      },
+      "coww (RMW)": {
+        "Non-weak": 12600,
+        "Weak": 0
+      },
+      "Test Parameters": {
+        "barrierPct": 25,
+        "maxWorkgroupSize": 16,
+        "maxWorkgroups": 16,
+        "memStressIterations": 71,
+        "memStressPattern": 3,
+        "memStressPct": 20,
+        "memStride": 6,
+        "minWorkgroupSize": 8,
+        "preStressIterations": 37,
+        "preStressPattern": 3,
+        "preStressPct": 10,
+        "scratchMemorySize": 16384,
+        "shufflePct": 65,
+        "stressAssignmentStrategy": 0,
+        "stressLineSize": 256,
         "stressTargetLines": 2,
-        "stressAssignmentStrategy": 0
+        "testIterations": 100,
+        "testingWorkgroups": 14
       }
     },
     "gpu": "PowerVR Rogue GE8320",
-    "testCount": 20
+    "configurations": 50,
+    "randomSeed": "vulkan"
   }
 ]
