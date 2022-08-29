@@ -24,6 +24,7 @@ conformanceResultFiles.forEach(resultFile => {
         .then(function(data) {
             var numConfig = data[0].configurations;
             var violatedTestMap = {};
+            var violatedTestCount = 0;
 
             // Initialize violatedTestMap
             conformanceLitmusTest.forEach(testName => {
@@ -78,6 +79,7 @@ conformanceResultFiles.forEach(resultFile => {
 
             conformanceLitmusTest.forEach(testName => {
                 if(violatedTestMap[testName] > 0) {
+                    violatedTestCount++;
                     var nestedTr = document.createElement('tr');
                     var nestedTh = document.createElement('th');
 
@@ -89,6 +91,20 @@ conformanceResultFiles.forEach(resultFile => {
                     nestedTable.appendChild(nestedTr);
                 }
             })
+
+            /// No test violated
+            if(violatedTestCount == 0) {
+                var nestedTr = document.createElement('tr');
+                var nestedTh = document.createElement('th');
+
+                var testNode = document.createTextNode("No test violated");
+                nestedTh.setAttribute('class', 'violatedTestColumn');
+                nestedTh.setAttribute('bgcolor', cellColor[0]);
+                nestedTh.appendChild(testNode);
+                nestedTr.appendChild(nestedTh);
+                nestedTable.appendChild(nestedTr);
+            }
+
             th.appendChild(nestedTable);
             tr.appendChild(th);
 
