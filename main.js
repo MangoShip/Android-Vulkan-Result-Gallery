@@ -1,5 +1,6 @@
 const resultFiles = ["Samsung SM-T510 (ARM Mali - G71)", "Pixel 6 (ARM Mali - G78)", "Samsung SM-T500 (Qualcomm Adreno 610)", 
-                     "Qualcomm Lahaina (Qualcomm Adreno 660)", "(Adreno (TM) 642L)", "Motorola Moto G Pure (PowerVR GE8320)", "Nvidia Shield TV Pro (NVIDIA Tegra X1)"];
+                     "OnePlus 7T (Adreno (TM) 640)", "(Adreno (TM) 642L)", "Qualcomm Lahaina (Qualcomm Adreno 660)",  
+                     "Motorola Moto G Pure (PowerVR GE8320)", "Nvidia Shield TV Pro (NVIDIA Tegra X1)"];
 
 const conformanceResultFiles = ["Samsung SM-T510 (ARM Mali - G71)", "Pixel 6 (ARM Mali - G78)", "Samsung SM-T500 (Qualcomm Adreno 610)", 
                                 "Qualcomm Lahaina (Qualcomm Adreno 660)", "Motorola Moto G Pure (PowerVR GE8320)", "Nvidia Shield TV Pro (NVIDIA Tegra X1)"];
@@ -12,9 +13,9 @@ const conformanceLitmusTest = ["message_passing (single)", "message_passing (bar
                                "store_buffer (single)", "store_buffer (barrier)", "write_22 (single)", "write_22 (barrier)",
                                "corr", "corr (RMW)", "corw2", "corw2 (RMW)", "cowr", "cowr (RMW)", "coww", "coww (RMW)"];
 
-const workgroupNum = [[4,8], [16,32], [4,8], [2,8], [4,8], [8,16], [16,32]];
+const workgroupNum = [[4,8], [16,32], [4,8], [4,8], [4,8], [4,8], [8,16], [16,32]];
 
-const workgroupSize = [[4,8], [16,32], [4,8], [4,16], [4,16], [8,16], [16,32]];
+const workgroupSize = [[4,8], [16,32], [4,8], [4,16], [4,16], [4,16], [8,16], [16,32]];
 
 const cellColor = ["#CCFFCC", "#CCFFFF", "#FFCCCC"];
 
